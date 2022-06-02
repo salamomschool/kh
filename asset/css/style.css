@@ -1,0 +1,206 @@
+.input{
+    width: 250px;
+    font-family: inherit;
+    border-bottom: 3px solid;
+    outline: 0;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.5s;
+    border-radius: 10px;
+    box-shadow: 2px 3px #888888;
+}
+.inputName{
+  width: 210px;
+  font-family: "Comic Sans MS";
+  border-bottom: 3px solid;
+  outline: 0;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.5s;
+  border-radius: 30px;
+  box-shadow: 2px 3px #888888;
+}
+.name{
+  text-shadow: 2px 2px #8f2f02;
+
+}
+.tr1{
+  background-color: rgb(0, 132, 255);
+  color: aliceblue;
+}
+.button{
+  height: 25px;
+  width: 115px;
+  border: 0;
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+  box-shadow: 2px 4px #888888;
+
+}
+
+.mystyle{
+  align-items: center;
+  text-align: center;
+  color: #4ebeff;
+  
+}
+.form-controlin{
+  align-items: center;
+  width: 70%;
+  background-color: transparent;
+  height: 35px;
+  border-radius: 4px;
+  box-shadow: 0px 3px #4a6dad;
+  border: none;
+  background: transparent;
+
+}
+.mb-4{
+  margin-top: 10px;
+}
+.myForm{
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.myForm2{
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.myBtnstyle{
+  height: 35px;
+  width: 90px;
+  border: 0;
+  background-color: rgb(19, 177, 169);
+  color: aliceblue;
+  border-radius: 4px;
+  box-shadow: 2px 1px rgb(3, 90, 86);
+  margin-top: 20px;
+
+}
+.modal-contentin {
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  padding: 25px;
+  width: 60%;
+  border-radius: 40px;
+  transition: 500s padding ease-in, 500s margin ease-in, 500s border ease-in;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 150px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0, 0, 0, 0.623);
+}
+
+.modal-contentin2 {
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  padding: 25px;
+  width: 60%;
+  border-radius: 40px;
+  transition: 500s padding ease-in, 500s margin ease-in, 500s border ease-in;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.modal2 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 150px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0, 0, 0, 0.623);
+}
+
+.bodyFont{
+
+  font-family: "Comic Sans MS", Times, serif;
+}
+#head{
+  text-align: center;
+  color: rgb(255, 145, 0);
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+#body{
+  text-align: center;
+}
+table {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+td, th {
+border: 1px solid #3b3535;
+text-align: center;
+padding: 8px;
+}
+
+tr:nth-child(even) {
+background-color: #bce0f8;
+}
+input, select {
+  border: 0;
+  width: 95px;
+  font-size: 16px;
+  text-align: center;
+  color: rgb(254, 253, 255);
+}
+.design{
+  align-content: center;
+  align-items: center;
+}
+.myClassA{
+  border: 0;
+  background-color: transparent;
+  margin: 25px;
+  height: 35px;
+  width: 105px;
+  border-radius: 5px;
+  box-shadow: 1px 5px #689416;
+  font-family: "Comic Sans MS", Times, serif;
+  font-size: 16px;
+}
+.text-centerin{
+  align-items: center;
+}
+.glass{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
